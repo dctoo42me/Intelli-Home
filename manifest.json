@@ -1,0 +1,21 @@
+{
+    "name": "Intelli-Home",
+    "short_name": "Intelli-Home",
+    "description": "Control your smart home with ease",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#491088",
+    "theme_color": "#ff19db",
+    "icons": [
+        {
+        "src": "icons/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        },
+        {
+        "src": "icons/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ]
+}
