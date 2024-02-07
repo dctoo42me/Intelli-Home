@@ -1,9 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: auto;
     padding: 0;
     background: linear-gradient(to bottom, #28074a, #491088);
     color: #fff;
+    max-width: 800px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -15,8 +19,8 @@ header {
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
     background: linear-gradient(to right, #6c1dd0, #ff19db);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -132,8 +136,7 @@ button:active {
 
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {
-    section {
-        margin: 10px;
-        padding: 10px;
+    body {
+        max-width: 600px;
     }
 }
