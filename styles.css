@@ -5,10 +5,11 @@ body {
     background: linear-gradient(to bottom, #28074a, #491088);
     color: #fff;
     max-width: 800px;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     touch-action: manipulation;
+    overflow: hidden;
 }
 
 header {
@@ -23,7 +24,7 @@ section {
     margin: 10px;
     padding: 10px;
     text-align: center;
-    height: max-content;
+    height: 100%;
     background: linear-gradient(to right, #6c1dd0, #ff19db);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
