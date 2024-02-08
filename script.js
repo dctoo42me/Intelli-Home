@@ -77,3 +77,9 @@ var lightsOn = false;
         function stopSong() {
             songText.textContent = "Music Stopped";
         }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            document.addEventListener('gesturestart', function(e) {
+                e.preventDefault();
+            });
+        });
